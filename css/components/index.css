@@ -86,6 +86,11 @@
   transition-timing-function: ease-in;
 }
 
+.aside--theme {
+  position: absolute;
+  top: 0;
+}
+
 .aside h2 {
   color: white;
   padding-top: 0px;
@@ -155,4 +160,7 @@
   max-width: var(--max-width);
   margin: auto;
   padding: 0 50px;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 500px;
 }

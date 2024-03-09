@@ -77,11 +77,14 @@ function wegewg() {
         headert.classList.add("header--theme");
         rectLogo.classList.add("logo__rect--theme");
         logoText.classList.add("logo__text--thema");
+        aside.classList.add("aside--theme");
       } else {
         text.forEach((e) => e.classList.remove("header-nav__link--theme"));
         headert.classList.remove("header--theme");
         rectLogo.classList.remove("logo__rect--theme");
         logoText.classList.remove("logo__text--thema");
+        homeArt.classList.remove("home-art--theme");
+        aside.classList.remove("aside--theme");
       }
     }, options);
   }
